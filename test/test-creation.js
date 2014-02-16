@@ -31,7 +31,7 @@ describe('finatra generator', function () {
     var expected = [
       'bower.json',
       'package.json',
-      'gruntfile.js',
+      'Gruntfile.js',
     ];
 
     helpers.mockPrompt(this.app, {
