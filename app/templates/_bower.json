@@ -1,0 +1,20 @@
+{
+  "name": "<%= _.slugify(_.humanize(appname)) %>",
+  "version": "0.0.0",
+  "dependencies": {},
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {<% if (includeBootstrap) { if (includeSass) { %>
+    "bootstrap-sass": "git://github.com/twbs/bootstrap-sass.git#v3.1.0",<% } else { %>
+    "bootstrap": "~3.0.3",<% }} if (includeModernizr) { %>
+    "modernizr": "~2.6.2",<% } %>
+    "jquery": "~1.10.2"
+  }
+}
