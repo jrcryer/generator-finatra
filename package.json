@@ -1,7 +1,7 @@
 {
   "name": "generator-finatra",
-  "version": "0.0.0",
-  "description": "Yeoman generator",
+  "version": "0.0.1",
+  "description": "Yeoman generator for Finatra framework",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "jrcryer/generator-finatra",
